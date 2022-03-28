@@ -3,4 +3,4 @@
 	export const router = false;
 </script>
 
-<h1>Hello, welcome to Philomathica</h1>
+<h1>Hello, welcome to Philomathica!</h1>
