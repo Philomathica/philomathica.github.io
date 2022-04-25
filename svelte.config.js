@@ -18,6 +18,10 @@ const config = {
 		}),
 		prerender: {
 			default: true
+		},
+		browser: {
+			hydrate: process.env.NODE_ENV === 'development',
+			router: false
 		}
 	}
 };
