@@ -4,15 +4,15 @@
 
 @layer components {
   h1 {
-    @apply text-3xl font-bold uppercase tracking-wide;
+    @apply text-3xl font-bold uppercase;
   }
 
   h2 {
-    @apply text-xl font-bold uppercase tracking-wide;
+    @apply text-xl font-bold uppercase;
   }
 
   h3 {
-    @apply font-bold uppercase tracking-wide;
+    @apply font-bold uppercase;
   }
 }
 

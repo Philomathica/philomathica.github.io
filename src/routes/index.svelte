@@ -38,7 +38,7 @@
       <div class="container px-4 mx-auto text-white">
         <h1>Your partner <br /> in design & development</h1>
         <h2 class="font-thin normal-case">- We create apps and websites your clients will love!</h2>
-        <a class="inline-block px-8 py-3 mt-4 tracking-wide text-white bg-blue-500 font-narrow hover:bg-blue-700" href="#contact"
+        <a class="inline-block px-8 py-3 mt-4 tracking-wide text-white bg-blue-500 font-narrow hover:bg-blue-700 rounded-md" href="#contact"
           >Let's Get Started!</a
         >
       </div>
@@ -97,21 +97,23 @@
       </div>
 
       <div class="flex p-16 my-4 bg-gray-200">
-        <img class="w-24 h-24 rounded-[100%]" src="avatar.png" alt="" />
+        <img class="filtered w-24 h-24 rounded-full" src="/images/avatar-joris.jpeg" alt="" />
+
         <div class="ml-8 text-gray-700">
           <h3 class="text-3xl normal-case">Joris Compernol</h3>
           <ul class="">
-            <li>— UI/UX designer, Front-end developer</li>
+            <li>— UI/UX designer, Front-end developer, data-viz</li>
             <li>— Lead experience</li>
           </ul>
           <div class="flex flex-wrap gap-4 mt-8">
-            <img class="w-10 h-10" src="/icons/html.svg" alt="" />
-            <img class="w-10 h-10" src="/icons/css.svg" alt="" />
-            <img class="w-10 h-10" src="/icons/javascript.svg" alt="" />
-            <img class="w-10 h-10" src="/icons/svelte.svg" alt="" />
-            <img class="w-10 h-10" src="/icons/tailwindcss.svg" alt="" />
-            <img class="w-10 h-10" src="/icons/mongodb.svg" alt="" />
-            <img class="w-10 h-10" src="/icons/mysql.svg" alt="" />
+            <img class="w-10 h-10" src="/icons/figma.svg" alt="figma" />
+            <img class="w-10 h-10" src="/icons/tailwindcss.svg" alt="tailwindcss" />
+            <img class="w-10 h-10" src="/icons/typescript.svg" alt="typescript" />
+            <img class="w-10 h-10" src="/icons/svelte.svg" alt="svelte" />
+            <img class="w-10 h-10" src="/icons/d3.svg" alt="d3" />
+            <img class="w-10 h-10" src="/icons/angular.svg" alt="angular" />
+            <img class="w-10 h-10" src="/icons/nest.svg" alt="nest" />
+            <img class="w-10 h-10" src="/icons/mongodb.svg" alt="mongodb" />
           </div>
         </div>
       </div>
@@ -153,7 +155,7 @@
       </p>
       <a
         href="mailto:philomaticateam@gmail.com"
-        class="inline-block px-8 py-3 mt-4 tracking-wide text-white bg-blue-500 font-narrow hover:bg-blue-700"
+        class="inline-block px-8 py-3 mt-4 tracking-wide text-white bg-blue-500 font-narrow hover:bg-blue-700 rounded-md"
         >Send us an Email
       </a>
     </section>
