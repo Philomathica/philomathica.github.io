@@ -18,7 +18,7 @@
       gtag('config', 'G-53CCNS021Z');
     </script>
     <meta http-equiv="content-security-policy" content="" />
-    <link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-e9380097.css" />
+    <link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-41136b81.css" />
   </head>
   <body>
     <div class="font-sans bg-gray-100">
@@ -56,7 +56,7 @@
               in design &amp; development
             </h1>
             <h2 class="font-thin normal-case">- We create apps and websites your clients will love!</h2>
-            <a class="inline-block px-8 py-3 mt-4 tracking-wide text-white bg-blue-500 font-narrow hover:bg-blue-700 rounded-md" href="#contact"
+            <a class="inline-block px-8 py-3 mt-4 tracking-wide text-white bg-blue-500 rounded-md font-narrow hover:bg-blue-700" href="#contact"
               >Let&#39;s Get Started!</a
             >
           </div>
@@ -71,19 +71,19 @@
           </p>
 
           <div class="grid grid-cols-1 gap-12 mt-8 md:grid-cols-2">
-            <div class="flex flex-col items-center p-8 bg-gray-200 h-36">
+            <div class="flex flex-col items-center p-8 bg-gray-200 rounded h-36">
               <h4 class="">Design</h4>
               <p class="mt-2 text-sm text-gray-600">Product design, UI/UX design, Design systems.</p>
             </div>
-            <div class="flex flex-col items-center p-8 bg-gray-200 h-36">
+            <div class="flex flex-col items-center p-8 bg-gray-200 rounded h-36">
               <h4 class="">Development</h4>
               <p class="mt-2 text-sm text-gray-600">Developing scalable web apps and mobile apps.</p>
             </div>
-            <div class="flex flex-col items-center p-8 bg-gray-200 h-36">
+            <div class="flex flex-col items-center p-8 bg-gray-200 rounded h-36">
               <h4 class="">Deployment</h4>
               <p class="mt-2 text-sm text-gray-600">Automated deployment workflow and CI/CD pipelines.</p>
             </div>
-            <div class="flex flex-col items-center p-8 bg-gray-200 h-36">
+            <div class="flex flex-col items-center p-8 bg-gray-200 rounded h-36">
               <h4 class="">Maintenance</h4>
               <p class="mt-2 text-sm text-gray-600">Continuous monitoring, maintenance and support .</p>
             </div>
@@ -94,28 +94,35 @@
           <h2 class="text-xl text-gray-900 normal-case md:text-3xl">The team</h2>
           <p>We are a small team of designers and developers who create awesome stuff for the web and mobile.</p>
 
-          <div class="flex p-16 my-4 bg-gray-200">
+          <div class="flex p-16 my-4 bg-gray-200 rounded">
             <img class="w-24 h-24 rounded-[100%]" src="avatar.png" alt="" />
             <div class="ml-8 text-gray-700">
               <h3 class="text-3xl normal-case">Luuk Moret</h3>
-              <ul class="">
+              <ul class="mt-4">
                 <li>— Full-stack developer, Devops, Architect</li>
                 <li>— Lead experience</li>
               </ul>
-              <div class="flex flex-wrap gap-4 mt-8">
-                <img class="w-10 h-10" src="/icons/html.svg" alt="" />
-                <img class="w-10 h-10" src="/icons/css.svg" alt="" />
-                <img class="w-10 h-10" src="/icons/javascript.svg" alt="" />
-                <img class="w-10 h-10" src="/icons/svelte.svg" alt="" />
-                <img class="w-10 h-10" src="/icons/tailwindcss.svg" alt="" />
-                <img class="w-10 h-10" src="/icons/mongodb.svg" alt="" />
-                <img class="w-10 h-10" src="/icons/mysql.svg" alt="" />
+              <h4 class="mt-4 mb-2">Links</h4>
+              <div class="flex flex-wrap gap-4">
+                <a href="https://github.com/LuukMoret"><img width="48" height="48" src="/icons/twitter.svg" alt="twitter" /></a>
+                <a href="https://twitter.com/luukmoret"><img width="48" height="48" src="/icons/github.svg" alt="github" /></a>
+                <a href="https://www.linkedin.com/in/luukmoret/"><img width="48" height="48" src="/icons/linkedin.svg" alt="linkedin" /></a>
+              </div>
+              <h4 class="mt-4 mb-2">Favorite tools</h4>
+              <div class="flex flex-wrap gap-4">
+                <div class="tooltip" data-tip="HTML"><img class="w-10 h-10 tooltip" src="/icons/html.svg" alt="html" /></div>
+                <div class="tooltip" data-tip="CSS"><img class="w-10 h-10" src="/icons/css.svg" alt="css" /></div>
+                <div class="tooltip" data-tip="Javascript"><img class="w-10 h-10" src="/icons/javascript.svg" alt="javascript" /></div>
+                <div class="tooltip" data-tip="Svelte"><img class="w-10 h-10" src="/icons/svelte.svg" alt="svelte" /></div>
+                <div class="tooltip" data-tip="Tailwind"><img class="w-10 h-10" src="/icons/tailwindcss.svg" alt="tailwindcss" /></div>
+                <div class="tooltip" data-tip="Mongodb"><img class="w-10 h-10" src="/icons/mongodb.svg" alt="mongodb" /></div>
+                <div class="tooltip" data-tip="MySql"><img class="w-10 h-10" src="/icons/mysql.svg" alt="mysql" /></div>
               </div>
             </div>
           </div>
 
-          <div class="flex p-16 my-4 bg-gray-200">
-            <img class="filtered w-24 h-24 rounded-full" src="/images/avatar-joris.jpeg" alt="" />
+          <div class="flex p-16 my-4 bg-gray-200 rounded">
+            <img class="w-24 h-24 rounded-full filtered" src="/images/avatar-joris.jpeg" alt="" />
 
             <div class="ml-8 text-gray-700">
               <h3 class="text-3xl normal-case">Joris Compernol</h3>
@@ -123,20 +130,26 @@
                 <li>— UI/UX designer, Front-end developer, data-viz</li>
                 <li>— Lead experience</li>
               </ul>
-              <div class="flex flex-wrap gap-4 mt-8">
-                <img class="w-10 h-10" src="/icons/figma.svg" alt="figma" />
-                <img class="w-10 h-10" src="/icons/tailwindcss.svg" alt="tailwindcss" />
-                <img class="w-10 h-10" src="/icons/typescript.svg" alt="typescript" />
-                <img class="w-10 h-10" src="/icons/svelte.svg" alt="svelte" />
-                <img class="w-10 h-10" src="/icons/d3.svg" alt="d3" />
-                <img class="w-10 h-10" src="/icons/angular.svg" alt="angular" />
-                <img class="w-10 h-10" src="/icons/nest.svg" alt="nest" />
-                <img class="w-10 h-10" src="/icons/mongodb.svg" alt="mongodb" />
+              <h4 class="mt-4 mb-2">Links</h4>
+              <div class="flex flex-wrap gap-4">
+                <a href="https://github.com/LuukMoret"><img width="48" height="48" src="/icons/twitter.svg" alt="twitter" /></a>
+                <a href="https://twitter.com/luukmoret"><img width="48" height="48" src="/icons/github.svg" alt="github" /></a>
+                <a href="https://www.linkedin.com/in/luukmoret/"><img width="48" height="48" src="/icons/linkedin.svg" alt="linkedin" /></a>
+              </div>
+              <h4 class="mt-4 mb-2">Favorite tools</h4>
+              <div class="flex flex-wrap gap-4">
+                <div class="tooltip" data-tip="HTML"><img class="w-10 h-10 tooltip" src="/icons/html.svg" alt="html" /></div>
+                <div class="tooltip" data-tip="CSS"><img class="w-10 h-10" src="/icons/css.svg" alt="css" /></div>
+                <div class="tooltip" data-tip="Javascript"><img class="w-10 h-10" src="/icons/javascript.svg" alt="javascript" /></div>
+                <div class="tooltip" data-tip="Svelte"><img class="w-10 h-10" src="/icons/svelte.svg" alt="svelte" /></div>
+                <div class="tooltip" data-tip="Tailwind"><img class="w-10 h-10" src="/icons/tailwindcss.svg" alt="tailwindcss" /></div>
+                <div class="tooltip" data-tip="Mongodb"><img class="w-10 h-10" src="/icons/mongodb.svg" alt="mongodb" /></div>
+                <div class="tooltip" data-tip="MySql"><img class="w-10 h-10" src="/icons/mysql.svg" alt="mysql" /></div>
               </div>
             </div>
           </div>
 
-          <div class="flex p-16 my-4 bg-gray-200">
+          <div class="flex p-16 my-4 bg-gray-200 rounded">
             <img class="w-24 h-24 rounded-[100%]" src="avatar.png" alt="" />
             <div class="ml-8 text-gray-700">
               <h3 class="text-3xl normal-case">Robby Pelssers</h3>
@@ -144,14 +157,21 @@
                 <li>— Full stack developer, Database and API architect</li>
                 <li>— Lead experience</li>
               </ul>
-              <div class="flex flex-wrap gap-4 mt-8">
-                <img class="w-10 h-10" src="/icons/html.svg" alt="" />
-                <img class="w-10 h-10" src="/icons/css.svg" alt="" />
-                <img class="w-10 h-10" src="/icons/javascript.svg" alt="" />
-                <img class="w-10 h-10" src="/icons/svelte.svg" alt="" />
-                <img class="w-10 h-10" src="/icons/tailwindcss.svg" alt="" />
-                <img class="w-10 h-10" src="/icons/mongodb.svg" alt="" />
-                <img class="w-10 h-10" src="/icons/mysql.svg" alt="" />
+              <h4 class="mt-4 mb-2">Links</h4>
+              <div class="flex flex-wrap gap-4">
+                <a href="https://github.com/LuukMoret"><img width="48" height="48" src="/icons/twitter.svg" alt="twitter" /></a>
+                <a href="https://twitter.com/luukmoret"><img width="48" height="48" src="/icons/github.svg" alt="github" /></a>
+                <a href="https://www.linkedin.com/in/luukmoret/"><img width="48" height="48" src="/icons/linkedin.svg" alt="linkedin" /></a>
+              </div>
+              <h4 class="mt-4 mb-2">Favorite tools</h4>
+              <div class="flex flex-wrap gap-4">
+                <div class="tooltip" data-tip="HTML"><img class="w-10 h-10 tooltip" src="/icons/html.svg" alt="html" /></div>
+                <div class="tooltip" data-tip="CSS"><img class="w-10 h-10" src="/icons/css.svg" alt="css" /></div>
+                <div class="tooltip" data-tip="Javascript"><img class="w-10 h-10" src="/icons/javascript.svg" alt="javascript" /></div>
+                <div class="tooltip" data-tip="Svelte"><img class="w-10 h-10" src="/icons/svelte.svg" alt="svelte" /></div>
+                <div class="tooltip" data-tip="Tailwind"><img class="w-10 h-10" src="/icons/tailwindcss.svg" alt="tailwindcss" /></div>
+                <div class="tooltip" data-tip="Mongodb"><img class="w-10 h-10" src="/icons/mongodb.svg" alt="mongodb" /></div>
+                <div class="tooltip" data-tip="MySql"><img class="w-10 h-10" src="/icons/mysql.svg" alt="mysql" /></div>
               </div>
             </div>
           </div>
@@ -165,7 +185,7 @@
           </p>
           <a
             href="mailto:philomaticateam@gmail.com"
-            class="inline-block px-8 py-3 mt-4 tracking-wide text-white bg-blue-500 font-narrow hover:bg-blue-700 rounded-md"
+            class="inline-block px-8 py-3 mt-4 tracking-wide text-white bg-blue-500 rounded-md font-narrow hover:bg-blue-700"
             >Send us an Email
           </a>
         </section>
