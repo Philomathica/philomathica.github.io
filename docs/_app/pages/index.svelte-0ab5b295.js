@@ -1,4 +1,10 @@
-import{S as i,i as c,s as n,e as o,a as r,c as m,F as t,f as d}from"../chunks/vendor-a6b68c02.js";function g(a){let s;return{c(){s=o("div"),s.innerHTML=`<header><nav class="bg-slate-800"><div class="container flex items-center px-4 py-4 mx-auto"><a href="#main" class="flex items-center text-blue-200 hover:text-blue-400"><span class="w-5 h-5"><svg viewBox="0 0 185 205" xmlns="http://www.w3.org/2000/svg"><path fill="currentcolor" fill-rule="evenodd" clip-rule="evenodd" d="M185 92.5C185 143.586 143.586 185 92.5 185C71.6763 185 52.4597 178.119 37 166.507V186.5C37 196.717 28.7173 205 18.5 205H0V94H0.0119162C0.00398204 93.501 0 93.0009 0 92.5C0 41.4137 41.4137 0 92.5 0C143.586 0 185 41.4137 185 92.5ZM145 92.5C145 121.495 121.495 145 92.5 145C63.5051 145 40 121.495 40 92.5C40 63.5051 63.5051 40 92.5 40C121.495 40 145 63.5051 145 92.5Z"></path></svg></span> 
+import { S as i, i as c, s as n, e as o, a as r, c as m, n as t, f as d } from '../chunks/index-350455f2.js';
+function g(a) {
+  let s;
+  return {
+    c() {
+      (s = o('div')),
+        (s.innerHTML = `<header><nav class="bg-slate-800"><div class="container flex items-center px-4 py-4 mx-auto"><a href="#main" class="flex items-center text-blue-200 hover:text-blue-400"><span class="w-5 h-5"><svg viewBox="0 0 185 205" xmlns="http://www.w3.org/2000/svg"><path fill="currentcolor" fill-rule="evenodd" clip-rule="evenodd" d="M185 92.5C185 143.586 143.586 185 92.5 185C71.6763 185 52.4597 178.119 37 166.507V186.5C37 196.717 28.7173 205 18.5 205H0V94H0.0119162C0.00398204 93.501 0 93.0009 0 92.5C0 41.4137 41.4137 0 92.5 0C143.586 0 185 41.4137 185 92.5ZM145 92.5C145 121.495 121.495 145 92.5 145C63.5051 145 40 121.495 40 92.5C40 63.5051 63.5051 40 92.5 40C121.495 40 145 63.5051 145 92.5Z"></path></svg></span> 
           <span class="ml-4 text-sm tracking-wide">Philomatica</span></a> 
         <ul class="items-center hidden ml-auto space-x-8 text-white md:flex"><li><a class="text-sm font-semibold text-blue-200 transition-colors duration-200 hover:text-blue-400" href="#offering">offering</a></li> 
           <li><a class="text-sm font-semibold text-blue-200 transition-colors duration-200 hover:text-blue-400" href="#team">team</a></li></ul> 
@@ -68,4 +74,23 @@ import{S as i,i as c,s as n,e as o,a as r,c as m,F as t,f as d}from"../chunks/ve
       <p class="pt-4 font-normal text-gray-600 text-">Tell us more about your project. Send us a message and we&#39;ll get back to you as soon as possible.</p> 
       <a href="mailto:philomaticateam@gmail.com" class="inline-block px-8 py-3 mt-4 tracking-wide text-white bg-blue-500 font-narrow hover:bg-blue-700 rounded-md">Send us an Email</a></section></main> 
 
-  <footer class="py-8 bg-gray-800 md:py-16"><div class="container px-4 mx-auto text-xs font-thin text-center text-white">philomatica design and development team Begium, The Netherlands - philomaticateam@gmail.com Copyright \xA9 2022 - All rights reserved</div></footer>`,r(s,"class","font-sans bg-gray-100")},m(e,l){m(e,s,l)},p:t,i:t,o:t,d(e){e&&d(s)}}}class h extends i{constructor(s){super();c(this,s,null,g,n,{})}}export{h as default};
+  <footer class="py-8 bg-gray-800 md:py-16"><div class="container px-4 mx-auto text-xs font-thin text-center text-white">philomatica design and development team Begium, The Netherlands - philomaticateam@gmail.com Copyright \xA9 2022 - All rights reserved</div></footer>`),
+        r(s, 'class', 'font-sans bg-gray-100');
+    },
+    m(e, l) {
+      m(e, s, l);
+    },
+    p: t,
+    i: t,
+    o: t,
+    d(e) {
+      e && d(s);
+    },
+  };
+}
+class h extends i {
+  constructor(s) {
+    super(), c(this, s, null, g, n, {});
+  }
+}
+export { h as default };
