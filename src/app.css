@@ -5,15 +5,15 @@
 
 @layer base {
   h1 {
-    @apply text-3xl font-bold uppercase;
+    @apply text-3xl font-bold;
   }
 
   h2 {
-    @apply text-xl font-bold uppercase;
+    @apply text-xl font-bold text-gray-900;
   }
 
   h3 {
-    @apply font-bold uppercase;
+    @apply font-bold;
   }
 
   h4 {
