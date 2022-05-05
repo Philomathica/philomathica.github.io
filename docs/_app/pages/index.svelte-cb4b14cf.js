@@ -60,15 +60,14 @@ import{S as l,i as o,s as c,e as r,a as d,c as n,n as e,f as p}from"../chunks/in
 
       <div class="flex p-16 my-12 bg-white rounded-lg drop-shadow-xl"><img class="w-48 h-48 rounded-full mr-6 bg-gray-200" src="/avatar-white.png" alt=""/> 
         <div class="ml-8 text-gray-700 border-l pl-14"><h3 class="text-3xl uppercase">Robby Pelssers</h3> 
-          <ul class="text-gray-500 mt-2"><li>Full stack developer, Database and API architect</li> 
+          <ul class="text-gray-500 mt-2"><li>Full stack developer (Java / NodeJs / Typescript / Angular)</li> 
             <li>Lead experience</li></ul> 
           <h4 class="mt-8 mb-4 text-gray-400 font-medium text-xs uppercase tracking-widest">Links</h4> 
-          <div class="flex flex-wrap gap-4"><a href="https://github.com/compernoljoris"><img width="32" height="32" src="/icons/twitter.svg" alt="twitter"/></a> 
-            <a href="https://twitter.com/compernoljoris"><img width="32" height="32" src="/icons/github.svg" alt="github"/></a> 
-            <a href="https://www.linkedin.com/in/joriscompernol/"><img width="32" height="32" src="/icons/linkedin.svg" alt="linkedin"/></a></div> 
+          <div class="flex flex-wrap gap-4"><a href="https://github.com/pelssersconsultancy" target="_blank"><img width="32" height="32" src="/icons/twitter.svg" alt="twitter"/></a> 
+            <a href="https://twitter.com/crypto_robby" target="_blank"><img width="32" height="32" src="/icons/github.svg" alt="github"/></a> 
+            <a href="https://www.linkedin.com/in/robbypelssers/" target="_blank"><img width="32" height="32" src="/icons/linkedin.svg" alt="linkedin"/></a></div> 
           <h4 class="mt-8 mb-4 text-gray-400 font-medium text-xs uppercase tracking-widest">Favorite tools</h4> 
-          <div class="flex flex-wrap gap-4"><div class="tooltip" data-tip="Figma"><img class="w-10 h-10 tooltip" src="/icons/figma.svg" alt="figma"/></div> 
-            <div class="tooltip" data-tip="tailwindcss"><img class="w-10 h-10" src="/icons/tailwindcss.svg" alt="tailwindcss"/></div> 
+          <div class="flex flex-wrap gap-4"><div class="tooltip" data-tip="tailwindcss"><img class="w-10 h-10" src="/icons/tailwindcss.svg" alt="tailwindcss"/></div> 
             <div class="tooltip" data-tip="Typescript"><img class="w-10 h-10" src="/icons/typescript.svg" alt="typescript"/></div> 
             <div class="tooltip" data-tip="Svelte"><img class="w-10 h-10" src="/icons/svelte.svg" alt="svelte"/></div> 
             <div class="tooltip" data-tip="Angular"><img class="w-10 h-10" src="/icons/angular.svg" alt="angular"/></div> 
