@@ -13,7 +13,7 @@
               />
             </svg>
           </span>
-          <span class="ml-4 text-sm tracking-wide">Philomatica</span>
+          <span class="ml-4 text-sm tracking-wide">Philomathica</span>
         </a>
         <ul class="items-center hidden ml-auto space-x-8 text-white md:flex">
           <li>
@@ -38,9 +38,9 @@
       <div class="container px-4 mx-auto text-white">
         <h1 class="text-4xl md:text-5xl uppercase tracking-wider">Your partner <br /> in design & development</h1>
         <h2 class="font-thin normal-case tracking-wider text-white">- We create apps and websites your clients will love!</h2>
-        <a class="inline-block px-8 py-3 mt-6 tracking-wide text-white bg-blue-500 rounded-md font-narrow hover:bg-blue-700" href="#contact"
-          >Let's Get Started!</a
-        >
+        <a class="inline-block px-8 py-3 mt-6 tracking-wide text-white bg-blue-500 rounded-md font-narrow hover:bg-blue-700" href="#contact">
+          Let's Get Started!
+        </a>
       </div>
     </section>
   </header>
@@ -48,9 +48,7 @@
   <main id="main" class="container px-4 mx-auto">
     <section id="offering" class="py-8 md:py-16">
       <h2 class="text-xl text-gray-900 normal-case md:text-3xl">What we're offering</h2>
-      <p class="pt-4 font-normal text-gray-600 text-">
-        We help you start your business with a modern, <br />user-friendly, and intuitive web application.
-      </p>
+      <p class="pt-4 font-normal text-gray-600 text-">We help you start your business with a modern, user-friendly, and intuitive web application.</p>
 
       <div class="grid grid-cols-1 gap-12 mt-8 md:grid-cols-3">
         <div class="flex flex-col items-center px-8 py-12 bg-white rounded-lg drop-shadow-xl">
@@ -76,7 +74,7 @@
       <p class="pt-4">We are a small team of designers and developers who create awesome stuff for the web and mobile.</p>
 
       <div class="flex p-16 my-12  bg-white rounded-lg drop-shadow-xl">
-        <img class="w-48 h-48 rounded-full mr-6 bg-gray-200" src="/avatar-white.png" alt="Luuk Moret" />
+        <img class="w-48 h-48 rounded-full mr-6" src="/images/avatar-luuk.jpeg" alt="avatar-luuk" />
         <div class="ml-8 text-gray-700 border-l pl-14">
           <h3 class="text-3xl uppercase">Luuk Moret</h3>
           <ul class="text-gray-500 mt-4">
@@ -97,7 +95,6 @@
           </div>
           <h4 class="mt-8 mb-4 text-gray-400 font-medium text-xs uppercase tracking-widest">Favorite tools</h4>
           <div class="flex flex-wrap gap-4">
-            <div class="tooltip" data-tip="Figma"><img class="w-10 h-10 tooltip" src="/icons/figma.svg" alt="figma" /></div>
             <div class="tooltip" data-tip="tailwindcss"><img class="w-10 h-10" src="/icons/tailwindcss.svg" alt="tailwindcss" /></div>
             <div class="tooltip" data-tip="Typescript"><img class="w-10 h-10" src="/icons/typescript.svg" alt="typescript" /></div>
             <div class="tooltip" data-tip="Svelte"><img class="w-10 h-10" src="/icons/svelte.svg" alt="svelte" /></div>
@@ -109,7 +106,7 @@
       </div>
 
       <div class="flex p-16 my-12  bg-white rounded-lg drop-shadow-xl">
-        <img class="w-48 h-48 rounded-full mr-6" src="/images/avatar-joris.jpeg" alt="" />
+        <img class="w-48 h-48 rounded-full mr-6" src="/images/avatar-joris.jpeg" alt="avatar-robby" />
         <div class="ml-8 text-gray-700 border-l pl-14">
           <h3 class="text-3xl uppercase">Joris Compernol</h3>
           <ul class="text-gray-500 mt-2">
@@ -142,7 +139,7 @@
       </div>
 
       <div class="flex p-16 my-12  bg-white rounded-lg drop-shadow-xl">
-        <img class="w-48 h-48 rounded-full mr-6 bg-gray-200" src="/avatar-white.png" alt="" />
+        <img class="w-48 h-48 rounded-full mr-6" src="/images/avatar-robby.jpeg" alt="avatar-robby" />
         <div class="ml-8 text-gray-700 border-l pl-14">
           <h3 class="text-3xl uppercase">Robby Pelssers</h3>
           <ul class="text-gray-500 mt-2">
@@ -183,13 +180,13 @@
     </section> -->
 
     <section id="contact" class="py-8 md:py-16 text-center">
-      <h2 class="md:text-3xl">Start your project with philomatica</h2>
+      <h2 class="md:text-3xl">Start your project with philomathica</h2>
 
       <p class="pt-4 font-normal text-gray-600 text-">
         Tell us more about your project. Send us a message and we'll get back to you as soon as possible.
       </p>
       <a
-        href="mailto:philomaticateam@gmail.com"
+        href="mailto:philomathicateam@gmail.com"
         class="inline-block px-8 py-3 mt-8 tracking-wide text-white bg-blue-500 rounded-md font-narrow hover:bg-blue-700"
         >Send us an Email
       </a>
@@ -198,7 +195,7 @@
 
   <footer class="py-8 bg-gray-800 md:py-16">
     <div class="container px-4 mx-auto text-xs font-thin text-center text-white">
-      philomatica design and development team Begium, The Netherlands - philomaticateam@gmail.com Copyright © 2022 - All rights reserved
+      philomathica design and development team Begium, The Netherlands - philomathicateam@gmail.com Copyright © 2022 - All rights reserved
     </div>
   </footer>
 </div>
