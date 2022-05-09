@@ -27,11 +27,11 @@ function g(i) {
           <h4 class="text-blue-500 font-bold uppercase tracking-widest">Deployment</h4> 
           <p class="mt-3 text-sm text-gray-600 h-10">Automated deployment workflow and CI/CD pipelines.</p></div></div></section> 
 
-    <section id="team" class="py-8 md:py-16"><h2 class="normal-case md:text-3xl">The team</h2> 
+    <section id="team" class="py-8 md:py-16"><h2 class="text-xl text-gray-900 normal-case md:text-3xl">The team</h2> 
       <p class="pt-4">We are a small team of designers and developers who create awesome stuff for the web and mobile.</p> 
 
-      <div class="flex p-16 my-12 bg-white rounded-lg drop-shadow-xl"><img class="w-48 h-48 rounded-full mr-6" src="/images/avatar-luuk.jpeg" alt="avatar-luuk"/> 
-        <div class="ml-8 text-gray-700 border-l pl-14"><h3 class="text-3xl uppercase">Luuk Moret</h3> 
+      <div class="flex flex-col md:flex-row p-16 my-12 bg-white rounded-lg drop-shadow-xl"><img class="w-32 h-32 rounded-full mr-6 mb-6" src="/images/avatar-luuk.jpeg" alt="avatar-luuk"/> 
+        <div class="md:ml-8 md:pl-14 md:border-l text-gray-700"><h3 class="text-3xl uppercase">Luuk Moret</h3> 
           <ul class="text-gray-500 mt-4"><li>Full-stack developer, Devops, Architect</li> 
             <li>Lead experience</li></ul> 
           <h4 class="mt-8 mb-4 text-gray-400 font-medium text-xs uppercase tracking-widest">Links</h4> 
@@ -39,15 +39,15 @@ function g(i) {
             <a href="https://twitter.com/luukmoret"><img width="32" height="32" src="/icons/github.svg" alt="github"/></a> 
             <a href="https://www.linkedin.com/in/luukmoret/"><img width="32" height="32" src="/icons/linkedin.svg" alt="linkedin"/></a></div> 
           <h4 class="mt-8 mb-4 text-gray-400 font-medium text-xs uppercase tracking-widest">Favorite tools</h4> 
-          <div class="flex flex-wrap gap-4"><div class="tooltip" data-tip="tailwindcss"><img class="w-10 h-10" src="/icons/tailwindcss.svg" alt="tailwindcss"/></div> 
+          <div class="flex flex-wrap gap-4"><div class="tooltip" data-tip="Tailwindcss"><img class="w-10 h-10" src="/icons/tailwindcss.svg" alt="tailwindcss"/></div> 
             <div class="tooltip" data-tip="Typescript"><img class="w-10 h-10" src="/icons/typescript.svg" alt="typescript"/></div> 
             <div class="tooltip" data-tip="Svelte"><img class="w-10 h-10" src="/icons/svelte.svg" alt="svelte"/></div> 
             <div class="tooltip" data-tip="Angular"><img class="w-10 h-10" src="/icons/angular.svg" alt="angular"/></div> 
             <div class="tooltip" data-tip="Nest"><img class="w-10 h-10" src="/icons/nest.svg" alt="nest"/></div> 
             <div class="tooltip" data-tip="Mongodb"><img class="w-10 h-10" src="/icons/mongodb.svg" alt="mongodb"/></div></div></div></div> 
 
-      <div class="flex p-16 my-12 bg-white rounded-lg drop-shadow-xl"><img class="w-48 h-48 rounded-full mr-6" src="/images/avatar-joris.jpeg" alt="avatar-robby"/> 
-        <div class="ml-8 text-gray-700 border-l pl-14"><h3 class="text-3xl uppercase">Joris Compernol</h3> 
+      <div class="flex flex-col md:flex-row p-16 my-12 bg-white rounded-lg drop-shadow-xl"><img class="w-32 h-32 rounded-full mr-6 mb-6" src="/images/avatar-joris.jpeg" alt="avatar-robby"/> 
+        <div class="md:ml-8 md:pl-14 md:border-l text-gray-700"><h3 class="text-3xl uppercase">Joris Compernol</h3> 
           <ul class="text-gray-500 mt-2"><li>UI/UX designer, Front-end developer, data-viz</li> 
             <li>Lead experience</li></ul> 
           <h4 class="mt-8 mb-4 text-gray-400 font-medium text-xs uppercase tracking-widest">Links</h4> 
@@ -56,15 +56,15 @@ function g(i) {
             <a href="https://www.linkedin.com/in/joriscompernol/"><img width="32" height="32" src="/icons/linkedin.svg" alt="linkedin"/></a></div> 
           <h4 class="mt-8 mb-4 text-gray-400 font-medium text-xs uppercase tracking-widest">Favorite tools</h4> 
           <div class="flex flex-wrap gap-4"><div class="tooltip" data-tip="Figma"><img class="w-10 h-10 tooltip" src="/icons/figma.svg" alt="figma"/></div> 
-            <div class="tooltip" data-tip="tailwindcss"><img class="w-10 h-10" src="/icons/tailwindcss.svg" alt="tailwindcss"/></div> 
+            <div class="tooltip" data-tip="Tailwindcss"><img class="w-10 h-10" src="/icons/tailwindcss.svg" alt="tailwindcss"/></div> 
             <div class="tooltip" data-tip="Typescript"><img class="w-10 h-10" src="/icons/typescript.svg" alt="typescript"/></div> 
             <div class="tooltip" data-tip="Svelte"><img class="w-10 h-10" src="/icons/svelte.svg" alt="svelte"/></div> 
             <div class="tooltip" data-tip="Angular"><img class="w-10 h-10" src="/icons/angular.svg" alt="angular"/></div> 
             <div class="tooltip" data-tip="Nest"><img class="w-10 h-10" src="/icons/nest.svg" alt="nest"/></div> 
             <div class="tooltip" data-tip="Mongodb"><img class="w-10 h-10" src="/icons/mongodb.svg" alt="mongodb"/></div></div></div></div> 
 
-      <div class="flex p-16 my-12 bg-white rounded-lg drop-shadow-xl"><img class="w-48 h-48 rounded-full mr-6" src="/images/avatar-robby.jpeg" alt="avatar-robby"/> 
-        <div class="ml-8 text-gray-700 border-l pl-14"><h3 class="text-3xl uppercase">Robby Pelssers</h3> 
+      <div class="flex flex-col md:flex-row p-16 my-12 bg-white rounded-lg drop-shadow-xl"><img class="w-32 h-32 rounded-full mr-6 mb-6" src="/images/avatar-robby.jpeg" alt="avatar-robby"/> 
+        <div class="md:ml-8 md:pl-14 md:border-l text-gray-700"><h3 class="text-3xl uppercase">Robby Pelssers</h3> 
           <ul class="text-gray-500 mt-2"><li>Full stack developer (Java / NodeJs / Typescript / Angular)</li> 
             <li>Lead experience</li></ul> 
           <h4 class="mt-8 mb-4 text-gray-400 font-medium text-xs uppercase tracking-widest">Links</h4> 
@@ -72,7 +72,7 @@ function g(i) {
             <a href="https://twitter.com/crypto_robby" target="_blank"><img width="32" height="32" src="/icons/github.svg" alt="github"/></a> 
             <a href="https://www.linkedin.com/in/robbypelssers/" target="_blank"><img width="32" height="32" src="/icons/linkedin.svg" alt="linkedin"/></a></div> 
           <h4 class="mt-8 mb-4 text-gray-400 font-medium text-xs uppercase tracking-widest">Favorite tools</h4> 
-          <div class="flex flex-wrap gap-4"><div class="tooltip" data-tip="tailwindcss"><img class="w-10 h-10" src="/icons/tailwindcss.svg" alt="tailwindcss"/></div> 
+          <div class="flex flex-wrap gap-4"><div class="tooltip" data-tip="Tailwindcss"><img class="w-10 h-10" src="/icons/tailwindcss.svg" alt="tailwindcss"/></div> 
             <div class="tooltip" data-tip="Typescript"><img class="w-10 h-10" src="/icons/typescript.svg" alt="typescript"/></div> 
             <div class="tooltip" data-tip="Svelte"><img class="w-10 h-10" src="/icons/svelte.svg" alt="svelte"/></div> 
             <div class="tooltip" data-tip="Angular"><img class="w-10 h-10" src="/icons/angular.svg" alt="angular"/></div> 
@@ -81,7 +81,7 @@ function g(i) {
 
     
 
-    <section id="contact" class="py-8 md:py-16 text-center"><h2 class="md:text-3xl">Start your project with philomathica</h2> 
+    <section id="contact" class="py-8 md:py-16 pb-16 text-center"><h2 class="md:text-3xl">Start your project with philomathica</h2> 
 
       <p class="pt-4 font-normal text-gray-600 text-">Tell us more about your project. Send us a message and we&#39;ll get back to you as soon as possible.</p> 
       <a href="mailto:philomathicateam@gmail.com" class="inline-block px-8 py-3 mt-8 tracking-wide text-white bg-blue-500 rounded-md font-narrow hover:bg-blue-700">Send us an Email</a></section></main> 
