@@ -48,7 +48,12 @@
   <main id="main" class="container px-4 mx-auto">
     <section id="offering" class="py-8 md:py-16">
       <h2 class="text-xl text-gray-900 normal-case md:text-3xl">What we're offering</h2>
-      <p class="pt-4 font-normal text-gray-600 text-">We help you start your business with a modern, user-friendly, and intuitive web application.</p>
+      <p class="pt-4 font-normal text-gray-600 text-">
+        We help you start your business with a modern, user-friendly, and intuitive web application. We are a multidisciplinary team, and offer years
+        of result-driven professional experience. We can help bring your team to the next level by providing years of professional experience. We can
+        transform your startup to a scale up. We take a pragmatic approach in finding the perfect balance between speed of delivery and quality. Our
+        team has both experience in rapid prototyping as well as building enterprise applications.
+      </p>
 
       <div class="grid grid-cols-1 gap-12 mt-8 md:grid-cols-3">
         <div class="flex flex-col items-center px-8 py-12 bg-white rounded-lg drop-shadow-xl">
@@ -59,7 +64,7 @@
         <div class="flex flex-col items-center px-8 py-12 bg-white rounded-lg drop-shadow-xl">
           <img class="m-auto" width="160" height="160" src="/images/development.svg" alt="development" />
           <h4 class="text-blue-500 font-bold uppercase tracking-widest">Development</h4>
-          <p class="mt-3 text-sm text-gray-600 h-10">Developing scalable web apps and mobile apps.</p>
+          <p class="mt-3 text-sm text-gray-600 h-10">Developing scalable and responsive web and mobile apps.</p>
         </div>
         <div class="flex flex-col items-center px-8 py-12 bg-white rounded-lg drop-shadow-xl">
           <img class="m-auto" width="160" height="160" src="/images/deployment.svg" alt="deployment" />
@@ -101,6 +106,7 @@
             <div class="tooltip" data-tip="Angular"><img class="w-10 h-10" src="/icons/angular.svg" alt="angular" /></div>
             <div class="tooltip" data-tip="Nest"><img class="w-10 h-10" src="/icons/nest.svg" alt="nest" /></div>
             <div class="tooltip" data-tip="Mongodb"><img class="w-10 h-10" src="/icons/mongodb.svg" alt="mongodb" /></div>
+            <div class="tooltip" data-tip="Cypress"><img class="w-10 h-10" src="/icons/cypress.svg" alt="cypress" /></div>
           </div>
         </div>
       </div>
@@ -134,6 +140,7 @@
             <div class="tooltip" data-tip="Angular"><img class="w-10 h-10" src="/icons/angular.svg" alt="angular" /></div>
             <div class="tooltip" data-tip="Nest"><img class="w-10 h-10" src="/icons/nest.svg" alt="nest" /></div>
             <div class="tooltip" data-tip="Mongodb"><img class="w-10 h-10" src="/icons/mongodb.svg" alt="mongodb" /></div>
+            <div class="tooltip" data-tip="Cypress"><img class="w-10 h-10" src="/icons/cypress.svg" alt="cypress" /></div>
           </div>
         </div>
       </div>
@@ -166,6 +173,7 @@
             <div class="tooltip" data-tip="Angular"><img class="w-10 h-10" src="/icons/angular.svg" alt="angular" /></div>
             <div class="tooltip" data-tip="Nest"><img class="w-10 h-10" src="/icons/nest.svg" alt="nest" /></div>
             <div class="tooltip" data-tip="Mongodb"><img class="w-10 h-10" src="/icons/mongodb.svg" alt="mongodb" /></div>
+            <div class="tooltip" data-tip="Cypress"><img class="w-10 h-10" src="/icons/cypress.svg" alt="cypress" /></div>
           </div>
         </div>
       </div>
